@@ -14,8 +14,8 @@
       font-family: arial, sans-serif;
     }
     header{
-      border-bottom:2px solid grey;
-      height: 93px;
+      border-bottom:1px solid grey;
+      height: 87px;
       background-color: white;
       position: fixed;
       top: 0;
@@ -71,7 +71,7 @@
       font-size: 20px;
     }
     #under{
-      height: 30px;
+      height: 25px;
       padding-left: 20px;
       display: flex;
       align-items: center;
@@ -107,8 +107,11 @@
       line-height: 25px;
       top: 350px;
     }
-    .frame-question h2,h5{
+    .frame-question h2{
       color: rgb(67, 67, 67);
+    }
+    .frame-question h5{
+      color: gray;
     }
 
   </style>
